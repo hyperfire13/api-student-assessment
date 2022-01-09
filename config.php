@@ -4,5 +4,5 @@ define("HOSTTYPE", "mysql");
 define("HOSTNAME", "localhost");
 define("USERNAME", "kenneth");
 define("PASSWORD", "123456");
-define("DATABASE", "kenprogramming");
+define("DATABASE", "mlDb");
 ?>
