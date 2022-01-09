@@ -1,25 +1,26 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
 require 'includes/autoloader.php';
 
 use Classes\Database as Database;
-use Models\SourceCode as SourceCode;
+use Classes\Helpers as Helper;
+// use Models\SourceCode as SourceCode;
 
-// // $db = new Database();
-// // $database = $db->connect();
-// // $sourceCode = new SourceCode($database);
-// // $page = $_GET['page'];
-// // $size = $_GET['size'];
-// // $class = $_GET['class'];
-// // $result = $sourceCode->getSourceCodes($page, $size, $class);
-// echo 'pogi mo kenneth';
+$db = new Database();
+$database = $db->connect();
 
-header('Access-Control-Allow-Origin: *');
+$selectedSubject = $_POST['selectedSubject'];
+$selectedModule = $_POST['selectedModule'];
+$selectedSection = $_POST['selectedSection'];
+
+echo $selectedSubject;
+
+
   
-    if (move_uploaded_file($_FILES["file"]["tmp_name"], "upload/".$_FILES['file']['name'])) {
-        echo "done";
-        exit;
-    }
+    // if (move_uploaded_file($_FILES["file"]["tmp_name"], "upload/".$_FILES['file']['name'])) {
+    //     echo "done";
+    //     exit;
+    // }
   
-    echo "failed";
+    
 ?>
