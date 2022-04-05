@@ -16,9 +16,9 @@ import joblib as joblib
 import openpyxl as xl
 # import seaborn as sns
 
-# score_data = pd.read_csv('upload/haha.xlsx')
-
+score_data = pd.read_excel('upload/demosaved (1).xlsx', engine='openpyxl')
 # X = score_data.drop(columns=['RESULT'])
+print(score_data)
 # y = score_data['RESULT']
 
 # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -35,30 +35,30 @@ import openpyxl as xl
 # score = accuracy_score(y_test, predictions)
 # joblib.dump(model, 'student-assesstment.joblib')
 
-wb = xl.load_workbook('upload/haha.xlsx')
-sheet = wb['Sheet1']
-cell = sheet.cell(1, 4)
-cell.value = 'RESULT'
-print(cell.value)
+# wb = xl.load_workbook('upload/haha.xlsx')
+# sheet = wb['Sheet1']
+# cell = sheet.cell(2, 4)
+# cell.value = 'RESULT'
+# print(cell.value)
 # cell = sheet['a1']
 # cell = sheet.cell(1,1)
 # display value of the selected cell
 # print(cell.value)
 
-for row in range(2, sheet.max_row + 1):
-  score1 = sheet.cell(row, 1)
-  score2 = sheet.cell(row, 2)
-  score3 = sheet.cell(row, 3)
+# for row in range(2, sheet.max_row + 1):
+#   score1 = sheet.cell(row, 1)
+#   score2 = sheet.cell(row, 2)
+#   score3 = sheet.cell(row, 3)
   
  
-  model = joblib.load('student-assesstment.joblib')
-  predictions = model.predict([
-    [score1.value,score2.value,score3.value]
-  ])
-  # print(predictions)
-  resultCell = sheet.cell(row, 4)
-  resultCell.value = predictions[0]
-wb.save('upload/hehe.xlsx')
+#   model = joblib.load('student-assesstment.joblib')
+#   predictions = model.predict([
+#     [score1.value,score2.value,score3.value]
+#   ])
+#   # print(predictions)
+#   resultCell = sheet.cell(row, 4)
+#   resultCell.value = predictions[0]
+# wb.save('upload/hehe.xlsx')
 
 
 # print(predictions)
