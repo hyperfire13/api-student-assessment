@@ -1,0 +1,484 @@
+Student Number,Section,Age,Age,City Address,Parent's monthly income,Last School Attended(High School),Track,General Weighted Average(GWA) - Grade 11 and 12,General Weighted Average(GWA) - College 1st year 1st Semester,General Weighted Average(GWA) - College 1st year 2nd Semester,"Are you affiliated in any School Organization in the university? (example Computer Society, PASIGYAW, LUNDAYAN, Himig Chorale)",CONTINUE/STOP
+20-00336,BSIT-2A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,Yes,Continue
+20-00694,BSIT-2A,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00356,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",AMA,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00793,BSIT-2A,19,Female,Pasig,"below 9,520.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00337,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00738,BSIT-2A,19,Female,Pasig,"below 9,520.00",AMA,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00867,BSIT-2A,19,Female,Pasig,"below 9,520.00",AMA,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00899,BSIT-2A,21,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00361,BSIT-2A,18,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00300,BSIT-2A,18,Male,Pasig,"below 9,520.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00869,BSIT-2A,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,2.49 - 2.00,No,Continue
+20-00856,BSIT-2A,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00328,BSIT-2A,18,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00313,BSIT-2A,19,Male,Others,"below 9,520.00",Buting High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+20-00369,BSIT-2A,18,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00342,BSIT-2A,19,Female,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00363,BSIT-2A,20,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,1.99  - 1.50,below 3.00,No,Continue
+20-00896,BSIT-2A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,Yes,Continue
+20-00397,BSIT-2A,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00872,BSIT-2A,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00383,BSIT-2A,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00870,BSIT-2A,18,Male,Pasig,"9,520.00 - 19,040.00",STI,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00398,BSIT-2A,21,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+20-00868,BSIT-2A,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00469,BSIT-2A,20,Female,Pasig,"below 9,520.00",others,TVL,85 - 89,below 3.00,2.49 - 2.00,No,Continue
+20-00394,BSIT-2A,18,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00327,BSIT-2A,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00336,BSIT-2A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,Yes,Continue
+20-00837,BSIT-2A,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00859,BSIT-2A,19,Male,Others,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00301,BSIT-2A,18,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00389,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00321,BSIT-2A,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00333,BSIT-2A,19,Male,Pasig,"19,041.00 - 38,080.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00341,BSIT-2A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00304,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00390,BSIT-2A,18,Male,Pasig,"19,041.00 - 38,080.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00468,BSIT-2A,20,Female,Pasig,"below 9,520.00",others,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+20-00348,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00373,BSIT-2A,19,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00335,BSIT-2A,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00308,BSIT-2A,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00699,,18,M,Pasig,"below 9,520.00",Arellano University,TVL,85 - 89,1.99 - 1.50,below 3.00,No,Stop
+20-00328,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.0,1.99 - 1.50,No,Stop
+20-00376,,18,M,Pasig,"below 9,520.00",Ezra Technical Training Foundation,TVL,85 - 89,below 3.00,below 3.00,No,Stop
+20-00377,,18,F,Taguig,"below 9,520.00",others,TVL,90 - 95,below 3.00,below 3.00,No,Stop
+20-00387,,18,M,Pasig,"below 9,520.00",Pasig Catholic College,TVL,85 - 89,below 3.00,below 3.00,No,Stop
+20-00392,,18,M,Pasig,"below 9,520.00",Alicia National High School,TVL,85 - 89,below 3.00,below 3.00,No,Stop
+20-00852,,18,F,Pasig,"below 9,520.00",others,TVL,86 - 89,below 3.00,below 3.00,No,Stop
+20-00882,,18,M,Cainta,"below 9,520.00",Cainta,TVL,90 - 95,1.99 - 1.50,below 3.00,No,Stop
+20-00351,BSIT-2B,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00874,BSIT-2B,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00374,BSIT-2B,18,Female,Others,"below 9,520.00",Rizal High School,STEM,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00346,BSIT-2B,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,Yes,Continue
+20-00371,BSIT-2B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00835,BSIT-2B,19,Female,Others,"9,520.00 - 19,040.00",STI,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00315,BSIT-2B,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00379,BSIT-2B,19,Male,Pasig,"below 9,520.00",others,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00339,BSIT-2B,18,Female,Others,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00319,BSIT-2B,19,Female,Pasig,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00375,BSIT-2B,19,Female,Pasig,"9,520.00 - 19,040.00",STI,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00393,BSIT-2B,19,Male,Pasig,"19,041.00 - 38,080.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00380,BSIT-2B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00877,BSIT-2B,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00355,BSIT-2B,19,Male,Others,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00909,BSIT-2B,19,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00875,BSIT-2B,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00880,BSIT-2B,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00878,BSIT-2B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00326,BSIT-2B,19,Female,Others,"below 9,520.00",AMA,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00358,BSIT-2B,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+20-00395,BSIT-2B,18,Female,Pasig,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00876,BSIT-2B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00905,BSIT-2B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00385,BSIT-2B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00359,BSIT-2B,19,Female,Pasig,"below 9,520.00",STI,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00354,BSIT-2B,18,Female,Pasig,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00340,BSIT-2B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+20-00344,BSIT-2B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00350 ,BSIT-2B,18,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00910,BSIT-2B,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00367,BSIT-2B,19,Male,Pasig,"9,520.00 - 19,040.00",STI,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00372,BSIT-2B,20,Male,Pasig,"19,041.00 - 38,080.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+20-00323,BSIT-2B,20,Male,Pasig,"below 9,520.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00322,BSIT-2B,20,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00838,BSIT-2B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,96 and above,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00349,BSIT-2B,20,Male,Others,"below 9,520.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00306,BSIT-2B,19,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00332,BSIT-2B,20,Male,Pasig,"19,041.00 - 38,080.00",San Joaquin - Kalawaan High School,TVL,85 - 89,1.99  - 1.50,1.49 - 1.00,No,Continue
+20-00879,BSIT-2B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+19-01112,BSIT-2B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,2.49 - 2.00,No,Continue
+20-00329,BSIT-2C,19,Male,Pasig,"19,041.00 - 38,080.00",Santolan High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00331,BSIT-2C,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00840,BSIT-2C,18,Female,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,85 - 89,1.99  - 1.50,2.49 - 2.00,No,Continue
+20-00347,BSIT-2C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,96 and above,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00317,BSIT-2C,20,Female,Pasig,"9,520.00 - 19,040.00",Sagad High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00368,BSIT-2C,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,Yes,Continue
+20-00881,BSIT-2C,20,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+19-00419,BSIT-2C,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.50 - 3.00,No,Continue
+20-00314,BSIT-2C,19,Male,Others,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00885,BSIT-2C,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+20-00325,BSIT-2C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+20-00320,BSIT-2C,18,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,Yes,Continue
+20-00915,BSIT-2C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00884,BSIT-2C,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,81 - 84,1.49 - 1.00,2.49 - 2.00,No,Continue
+20-00883,BSIT-2C,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00897,BSIT-2C,18,Male,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00298,BSIT-2C,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00860,BSIT-2C,18,Female,Pasig,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00886,BSIT-2C,19,Female,Pasig,"9,520.00 - 19,040.00",AMA,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00386,BSIT-2C,19,Male,Others,"below 9,520.00",Buting High School,TVL,85 - 89,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00334,BSIT-2C,19,Male,Pasig,"9,520.00 - 19,040.00",Sagad High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00318,BSIT-2C,19,Male,Others,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00396,BSIT-2C,20,Male,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00908,BSIT-2C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00345,BSIT-2C,19,Male,Pasig,"below 9,520.00",Pasig Science High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00388,BSIT-2C,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00364,BSIT-2C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00901,BSIT-2C,21,Female,Pasig,"below 9,520.00",others,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00353,BSIT-2C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
+20-00898,BSIT-2C,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00391,BSIT-2C,19,Male,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,1.99  - 1.50,1.49 - 1.00,No,Continue
+20-00324,BSIT-2C,17,Male,Others,"below 9,520.00",Sagad High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00365,BSIT-2C,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00299,BSIT-2C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00381,BSIT-2C,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00552,BSIT-2C,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+20-00316,BSIT-2C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.99  - 1.50,No,Continue
+18-00371,BSIT-2C,22 and above,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+07-1205,BSIT-2D,22 and above,Male,Pasig,"19,041.00 - 38,080.00",San Joaquin - Kalawaan High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00846,BSIT-2D,22 and above,Male,Pasig,"38,081.00 - 60,640.00",others,4th year high school,75 - 80,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00847,BSIT-2D,22 and above,Female,Pasig,"below 9,520.00",others,STEM,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00836,BSIT-2D,22 and above,Male,Pasig,"9,520.00 - 19,040.00",others,4th year high school,81 - 84,1.99  - 1.50,2.49 - 2.00,No,Continue
+20-00850,BSIT-2D,22 and above,Female,Pasig,"9,520.00 - 19,040.00",others,4th year high school,90 - 95,1.99  - 1.50,2.49 - 2.00,Yes,Continue
+20-00845,BSIT-2D,22 and above,Male,Pasig,"below 9,520.00",Rizal High School,TVL,75 - 80,2.50 - 3.00,2.50 - 3.00,No,Continue
+20-00861,BSIT-2D,22 and above,Female,Pasig,"9,520.00 - 19,040.00",others,4th year high school,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+20-00853,BSIT-2D,22 and above,Male,Pasig,"below 9,520.00",Rizal High School,TVL,75 - 80,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00841,BSIT-2D,22 and above,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00844,BSIT-2D,22 and above,Male,Pasig,"9,520.00 - 19,040.00",others,4th year high school,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00848,BSIT-2D,22 and above,Male,Pasig,"19,041.00 - 38,080.00",others,STEM,96 and above,1.49 - 1.00,1.99  - 1.50,No,Continue
+20-00854,BSIT-2D,22 and above,Male,Pasig,"below 9,520.00",Sagad High School,STEM,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00852,BSIT-2D,22 and above,Female,Pasig,"below 9,520.00",others,STEM,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+20-00843,BSIT-2D,22 and above,Female,Pasig,"9,520.00 - 19,040.00",others,ABM,90 - 95,1.99  - 1.50,2.50 - 3.00,No,Continue
+20-00849,BSIT-2D,22 and above,Female,Pasig,"below 9,520.00",Rizal High School,STEM,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-01191,,18,M,Cainta,"below 9,520.00",Arellano University,TVL,81 - 84,below 3.00,2.49 - 2.00,No,Stop
+19-00591,,18,M,Pasig,"below 9,520.00",Arellano University,ABM,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Stop
+19-00569,,18,F,Pasig,"below 9,520.00",Nagpayong High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Stop
+19-00546,,18,F,Pasig,"below 9,520.00",Arellano University,TVL,85 - 89,2.49 - 2.00,1.99 - 1.50,No,Stop
+19-00530,,18,M,Pasig,"below 9,520.00",Nagpayong High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Stop
+19-00528,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00501,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00562,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Stop
+19-00429,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Stop
+19-00379,,18,M,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00516,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00450,,18,M,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,1.99 - 1.50,No,Stop
+19-00426,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Stop
+19-01260,,18,,Pasig,"below 9,520.00",Rizal High School,4th year,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-01240,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00572,,18,F,Pasig,"below 9,520.00",Nagpayong High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-01150,,18,M,Antipolo,"below 9,520.00",CASAP,TVL,81 - 84,below 3.00,2.49 - 2.00,No,Stop
+19-00462,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99 - 1.50,No,Stop
+19-01243,,18,F,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,below 3.00,2.49 - 2.00,No,Stop
+19-00440,,18,M,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-00491,,18,F,Pasig,"below 9,520.00",Arellano University,TVL,85 - 89,2.50 - 3.00,1.99 - 1.50,No,Stop
+19-01212,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,below 3.00,2.49 - 2.00,No,Stop
+19-00508,BSIT-3A,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,96 and above,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00410,BSIT-3A,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00486,BSIT-3A,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00615,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00380,BSIT-3A,19,Male,Pasig,"below 9,520.00",Rizal High School,STEM,96 and above,1.99  - 1.50,2.49 - 2.00,No,Continue
+19-00535,BSIT-3A,20,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00402,BSIT-3A,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00373,BSIT-3A,18,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19-01284,BSIT-3A,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00430,BSIT-3A,18,Male,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00490,BSIT-3A,18,Female,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+19-00492,BSIT-3A,18,Female,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,81 - 84,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00388,BSIT-3A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00859,BSIT-3A,20,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00385,BSIT-3A,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00559,BSIT-3A,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00414,BSIT-3A,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+19-00583,BSIT-3A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00384,BSIT-3A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00453,BSIT-3A,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00510,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00386,BSIT-3A,19,Male,Others,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00858,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00482,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,ABM,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00406,BSIT-3A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00377,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00376,BSIT-3A,18,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00860,BSIT-3A,19,Male,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.50 - 3.00,1.99  - 1.50,No,Continue
+19-00517,BSIT-3A,19,Male,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00761,BSIT-3A,19,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-01223,BSIT-3A,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00555,BSIT-3B,20,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00374,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,1.99  - 1.50,No,Continue
+19-00415,BSIT-3B,18,Male,Pasig,"38,081.00 - 60,640.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-01293,BSIT-3B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00411,BSIT-3B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19-00432,BSIT-3B,20,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00573,BSIT-3B,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00485,BSIT-3B,20,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00606,BSIT-3B,19,Male,Others,"9,520.00 - 19,040.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00532,BSIT-3B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00434,BSIT-3B,19,Female,Pasig,"below 9,520.00",others,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00537,BSIT-3B,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00565,BSIT-3B,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00417,BSIT-3B,19,Female,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00539,BSIT-3B,18,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00495,BSIT-3B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00548,BSIT-3B,19,Female,Pasig,"below 9,520.00",AMA,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-01283,BSIT-3B,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19 00604,BSIT-3B,19,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,81 - 84,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00421,BSIT-3B,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+19-00494,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00304,BSIT-3B,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00398,BSIT-3B,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00385,BSIT-3B,20,Female,Pasig,"below 9,520.00",Buting High School,ABM,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00538,BSIT-3B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00407,BSIT-3B,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00427,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00621,BSIT-3B,20,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+19-01075,BSIT-3B,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00404,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00403,BSIT-3B,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+19-00580,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00428,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+19-00553,BSIT-3B,18,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00408,BSIT-3B,18,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00607,BSIT-3B,18,Male,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.49 - 2.00,2.50 - 3.00,No,Continue
+19-00465,BSIT-3B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.50 - 3.00,No,Continue
+19-00605,BSIT-3B,19,Female,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,Yes,Continue
+19-00602,BSIT-3B,19,Male,Pasig,"9,520.00 - 19,040.00",Sta. Lucia High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00449,BSIT-3B,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19-00520,BSIT-3B,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00928,BSIT-3B,20,Female,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00381,BSIT-3C,18,Male,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-000445,BSIT-3C,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00568,BSIT-3C,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,ABM,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00613,BSIT-3C,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+19-00392,BSIT-3C,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00389,BSIT-3C,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00452,BSIT-3C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00383,BSIT-3C,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00375,BSIT-3C,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,2.50 - 3.00,No,Continue
+19-01125,BSIT-3C,19,Male,Others,"below 9,520.00",AMA,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00533,BSIT-3C,19,Male,Others,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00585,BSIT-3C,19,Female,Pasig,"below 9,520.00",Sta. Lucia High School,ABM,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00444,BSIT-3C,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00589,BSIT-3C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00588,BSIT-3C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00372,BSIT-3C,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00598,BSIT-3C,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00470,BSIT-3C,18,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00561,BSIT-3C,20,Female,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,1.99  - 1.50,1.49 - 1.00,No,Continue
+19-0041,BSIT-3C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00608,BSIT-3C,19,Male,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00540,BSIT-3C,19,Male,Pasig,"below 9,520.00",PCC,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00518,BSIT-3C,18,Female,Pasig,"19,041.00 - 38,080.00",Sagad High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00416,BSIT-3C,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00547,BSIT-3C,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-01196,BSIT-3C,18,Female,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00563,BSIT-3C,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00395,BSIT-3C,19,Male,Pasig,"9,520.00 - 19,040.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19-00394,BSIT-3C,19,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-01128,BSIT-3C,18,Male,Pasig,"below 9,520.00",AMA,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00571,BSIT-3C,18,Male,Pasig,"9,520.00 - 19,040.00",AMA,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00471,BSIT-3C,19,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00382,BSIT-3C,19,Female,Pasig,"above 60,640.00",Sta. Lucia High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00529,BSIT-3C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,1.99  - 1.50,2.49 - 2.00,No,Continue
+19-00413,BSIT-3D,19,Male,Pasig,"38,081.00 - 60,640.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00459,BSIT-3D,19,Male,Others,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+19-01206,BSIT-3D,19,Female,Pasig,"below 9,520.00",others,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00480,BSIT-3D,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00447,BSIT-3D,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00397,BSIT-3D,19,Male,Pasig,"above 60,640.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00448,BSIT-3D,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00594,BSIT-3D,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00550,BSIT-3D,19,Male,Pasig,"38,081.00 - 60,640.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00590,BSIT-3D,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00497,BSIT-3D,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00524,BSIT-3D,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-000451,BSIT-3D,20,Male,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+15-00549,BSIT-3D,19,Male,Pasig,"19,041.00 - 38,080.00",AMA,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00473,BSIT-3D,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+19-00511,BSIT-3D,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-01224,BSIT-3D,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00442,BSIT-3D,18,Male,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,below 3.00,2.49 - 2.00,No,Continue
+19 00481,BSIT-3D,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00512,BSIT-3D,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00557,BSIT-3D,18,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00521,BSIT-3D,19,Male,Others,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-01111,BSIT-3D,18,Female,Pasig,"38,081.00 - 60,640.00",STI,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00466,BSIT-3D,18,Female,Pasig,"below 9,520.00",Sagad High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00578,BSIT-3D,19,Female,Pasig,"9,520.00 - 19,040.00",Sagad High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00424,BSIT-3E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00455,BSIT-3E,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00593,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00425,BSIT-3E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00400,BSIT-3E,19,Male,Pasig,"38,081.00 - 60,640.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-01261,BSIT-3E,18,Female,Pasig,"below 9,520.00",Buting High School,ABM,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00509,BSIT-3E,18,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+16-00695,BSIT-3E,20,Female,Pasig,"below 9,520.00",AMA,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00523,BSIT-3E,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-01278,BSIT-3E,20,Male,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00502,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00437,BSIT-3E,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+19-00454,BSIT-3E,19,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,81 - 84,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00610,BSIT-3E,20,Male,Others,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00531,BSIT-3E,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-01247,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00493,BSIT-3E,19,Female,Pasig,"below 9,520.00",Buting High School,ABM,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00464,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00617,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00570,BSIT-3E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,2.50 - 3.00,Yes,Continue
+19-01147,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00399,BSIT-3E,20,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00620,BSIT-3E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00474,BSIT-3E,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-01246,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00545,BSIT-3E,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00396,BSIT-3E,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00370,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00436,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00515,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,2.50 - 3.00,No,Continue
+19-01072,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00368,BSIT-3E,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00412,BSIT-3E,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+19-00435,BSIT-3E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00479,BSIT-3E,20,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-01188,BSIT-3E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00618,BSIT-3E,20,Female,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+19-00556,BSIT-3E,20,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+19-00595,BSIT-3E,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Continue
+19-00431,BSIT-3E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,96 and above,1.99  - 1.50,1.49 - 1.00,No,Continue
+19-01113,BSIT-3E,20,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.50 - 3.00,Yes,Continue
+19-00457,BSIT-3E,20,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-01037,,18,M,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,below 3.00,2.49 - 2.00,No,Stop
+18-00426,,18,F,Taguig,"below 9,520.00",St. Chamuel,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+18-00621,,18,M,Pasig,"below 9,520.00",Mary the Queen College,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Stop
+18-00954,,18,M,Pasig,"below 9,520.00",others,TVL,75 - 80,2.50 - 3.00,below 3.00,No,Stop
+18-01032,,18,M,Pasig,"below 9,520.00",Holy Child High School,TVL,75 - 80,below 3.00,below 3.00,No,Stop
+18-00657,,18,F,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,below 3.00,below 3.00,No,Stop
+18-00940,,18,F,Pasig,"below 9,520.00",Kapitolyo High School,TVL,81 - 84,below 3.00,below 3.00,No,Stop
+18-01029,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,75 - 80,2.49 - 2.00,below 3.00,No,Stop
+18-00999,,18,M,Pasig,"below 9,520.00",Buting High School,TVl-HE,75 - 80,below 3.00,below 3.00,No,Stop
+18-00428,,18,M,Pasig,"below 9,520.00",Buting High School,TVl-HE,76 - 80,below 3.00,below 3.00,No,Stop
+18-00953,,18,F,Pasig,"below 9,520.00",Asian Institute of Computer Studies,TVL,90 - 95,below 3.00,below 3.00,No,Stop
+18-00393,,18,F,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,below 3.00,below 3.00,No,Stop
+18-00879,,18,M,Pasig,"below 9,520.00",Arellano University,TVL,85 - 89,below 3.00,below 3.00,No,Stop
+18-00731,,18,F,Pasig,"below 9,520.00",AMA,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+18-00431,,18,M,Pasig,"below 9,520.00",Eusebio High School,ABM,81 - 84,2.49 - 2.00,below 3.00,No,Stop
+18-00478,,18,M,Pasig,"below 9,520.00",Eusebio High School,ABM,81 - 84,2.49 - 2.00,below 3.00,No,Stop
+18-00880,,18,M,Pasig,"below 9,520.00",Arellano University,TVL,81 - 84,below 3.00,below 3.00,No,Stop
+18-00414,,18,F,Pasig,"below 9,520.00",Arellano University,TVL,81 - 84,below 3.00,below 3.00,No,Stop
+18-00499,,18,M,Morong,"below 9,520.00",STI,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Stop
+18-00374,,18,F,Pasig,"below 9,520.00",Buting High School,TVL,81 - 84,below 3.00,2.50 - 3.00,No,Stop
+18-00300,,18,M,Pasig,"below 9,520.00",Arellano University,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Stop
+18-00433,BSIT-4A,21,Male,Pasig,"19,041.00 - 38,080.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00370,BSIT-4A,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00484,BSIT-4A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+18 - 00635,BSIT-4A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00322,BSIT-4A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+18-00297,BSIT-4A,18,Male,Pasig,"19,041.00 - 38,080.00",Buting High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+18-00483,BSIT-4A,18,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00462,BSIT-4A,19,Female,Others,"19,041.00 - 38,080.00",STI,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00317,BSIT-4A,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00323,BSIT-4A,19,Male,Pasig,"below 9,520.00",Buting High School,ABM,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00407,BSIT-4A,18,Male,Pasig,"below 9,520.00",Buting High School,ABM,81 - 84,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+18-00308,BSIT-4A,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,96 and above,1.99  - 1.50,1.49 - 1.00,No,Continue
+18-00330,BSIT-4A,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00338,BSIT-4A,19,Male,Others,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00296,BSIT-4A,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.50 - 3.00,No,Continue
+18-00458,BSIT-4A,19,Male,Pasig,"below 9,520.00",Buting High School,ABM,85 - 89,1.99  - 1.50,2.50 - 3.00,No,Continue
+18-00620,BSIT-4A,18,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-01038,BSIT-4A,19,Male,Pasay City,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00455,BSIT-4A,18,Male,Pasig,"9,520.00 - 19,040.00",PCC,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00964,BSIT-4A,19,Male,Others,"above 60,640.00",PCC,TVL,85 - 89,2.50 - 3.00,1.99  - 1.50,No,Continue
+18-00873,BSIT-4A,19,Female,Pasig,"19,041.00 - 38,080.00",Rizal High School,ABM,85 - 89,2.50 - 3.00,1.99  - 1.50,No,Continue
+18-00972 ,BSIT-4A,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,ABM,85 - 89,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+18-00457,BSIT-4A,19,Female,Pasig,"below 9,520.00",Buting High School,ABM,85 - 89,2.50 - 3.00,1.99  - 1.50,No,Continue
+18-00475,BSIT-4A,18,Male,Others,"19,041.00 - 38,080.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00421,BSIT-4B,19,Female,Pateros,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00321,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",STI,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00327,BSIT-4B,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00381,BSIT-4B,18,Female,Others,"9,520.00 - 19,040.00",STI,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-00427,BSIT-4B,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00366,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00333,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+18-0318,BSIT-4B,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,1.99  - 1.50,No,Continue
+18-00878,BSIT-4B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00369,BSIT-4B,18,Female,Others,"below 9,520.00",Buting High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00314,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,Yes,Continue
+18-00415,BSIT-4B,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.50 - 3.00,No,Continue
+18-00430,BSIT-4B,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,90 - 95,2.50 - 3.00,1.99  - 1.50,No,Continue
+18-00417,BSIT-4B,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00493,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00449,BSIT-4B,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-00342,BSIT-4B,19,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00434,BSIT-4B,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00404,BSIT-4B,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00422,BSIT-4B,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00303,BSIT-4B,18,Female,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00429,BSIT-4B,18,Male,Pasig,"below 9,520.00",Buting High School,ABM,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00305,BSIT-4B,18,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00388,BSIT-4C,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00376,BSIT-4C,19,Female,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00354,BSIT-4C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00420,BSIT-4C,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00353,BSIT-4C,19,Male,Others,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-00438,BSIT-4C,19,Male,Pasig,"9,520.00 - 19,040.00",San Joaquin - Kalawaan High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00633,BSIT-4C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00464,BSIT-4C,19,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00392,BSIT-4C,18,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00416,BSIT-4C,18,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00343,BSIT-4C,18,Female,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00299,BSIT-4C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00466,BSIT-4C,19,Female,Pasig,"19,041.00 - 38,080.00",Buting High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00403,BSIT-4C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00364,BSIT-4C,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00454,BSIT-4C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00890,BSIT-4C,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00306,BSIT-4C,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00331,BSIT-4C,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00377,BSIT-4C,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00445,BSIT-4C,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00696,BSIT-4D,19,Male,Pasig,"below 9,520.00",AMA,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,Yes,Continue
+18-0345,BSIT-4D,18,Female,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00720,BSIT-4D,19,Male,Pasig,"9,520.00 - 19,040.00",AMA,TVL,96 and above,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00533,BSIT-4D,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00715,BSIT-4D,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00411,BSIT-4D,18,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-00425,BSIT-4D,19,Female,Others,"below 9,520.00",Eusebio High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-01046,BSIT-4D,19,Male,Pasig,"below 9,520.00",Eusebio High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00473,BSIT-4D,19,Male,Pasig,"9,520.00 - 19,040.00",Eusebio High School,ABM,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+18-00456,BSIT-4D,19,Male,Pasig,"below 9,520.00",Eusebio High School,ABM,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00372,BSIT-4D,19,Female,Pasig,"9,520.00 - 19,040.00",PCC,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00384,BSIT-4D,19,Female,Pasig,"below 9,520.00",Buting High School,ABM,90 - 95,2.49 - 2.00,2.50 - 3.00,No,Continue
+18-00636,BSIT-4D,18,Female,Pasig,"below 9,520.00",Buting High School,ABM,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00200,BSIT-4D,18,Male,Pasig,"9,520.00 - 19,040.00",STI,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-01016,BSIT-4D,18,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00375,BSIT-4D,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,Yes,Continue
+18-00567,BSIT-4E,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00355,BSIT-4E,18,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00351,BSIT-4E,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00408,BSIT-4E,19,Male,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00723,BSIT-4E,18,Male,Pasig,"9,520.00 - 19,040.00",Buting High School,TVL,81 - 84,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00435,BSIT-4E,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+19-00378,BSIT-4E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00302,BSIT-4E,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00567,BSIT-4E,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00390,BSIT-4E,19,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-01036,BSIT-4E,18,Male,Pasig,"38,081.00 - 60,640.00",Rizal High School,STEM,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00347,BSIT-4E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+18-00380,BSIT-4E,19,Male,Pateros,"9,520.00 - 19,040.00",Buting High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00936,BSIT-4E,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00441,BSIT-4E,19,Female,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,2.49 - 2.00,2.50 - 3.00,No,Continue
+18-00756,BSIT-4E,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,75 - 80,below 3.00,2.50 - 3.00,No,Continue
+18-00328,BSIT-4E,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00398,BSIT-4E,18,Female,Pasig,"below 9,520.00",Rizal High School,ABM,85 - 89,1.49 - 1.00,1.99  - 1.50,No,Continue
+18-00704,BSIT-4F,19,Male,Pasig,"19,041.00 - 38,080.00",AMA,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-00800,BSIT-4F,19,Male,Pasig,"below 9,520.00",San Joaquin - Kalawaan High School,TVL,85 - 89,2.49 - 2.00,2.50 - 3.00,No,Continue
+18-00798,BSIT-4F,19,Female,Others,"9,520.00 - 19,040.00",others,TVL,90 - 95,1.99  - 1.50,2.49 - 2.00,No,Continue
+18-00796,BSIT-4F,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00810,BSIT-4F,18,Female,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,2.49 - 2.00,2.50 - 3.00,No,Continue
+16-00804,BSIT-4F,19,Male,Pasig,"19,041.00 - 38,080.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00959,BSIT-4F,19,Male,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,75 - 80,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-01031,BSIT-4F,19,Female,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00705,BSIT-4F,19,Male,Others,"19,041.00 - 38,080.00",AMA,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,Yes,Continue
+18-00774,BSIT-4F,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00809,BSIT-4F,19,Male,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00813,BSIT-4F,19,Female,Pasig,"below 9,520.00",Sagad High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00803,BSIT-4F,18,Male,Pasig,"19,041.00 - 38,080.00",Sagad High School,TVL,90 - 95,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00806,BSIT-4F,19,Male,Others,"below 9,520.00",Sta. Lucia High School,TVL,85 - 89,2.50 - 3.00,2.50 - 3.00,No,Continue
+18-00805,BSIT-4F,18,Male,Pasig,"below 9,520.00",Sta. Lucia High School,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
+18-01022,BSIT-4F,19,Female,Pasig,"below 9,520.00",Sta. Lucia High School,ABM,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Continue
+18-00832,BSIT-4F,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00807,BSIT-4F,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue
+18-00802,BSIT-4F,18,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,1.99  - 1.50,No,Continue
+18-00795,BSIT-4F,18,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,2.49 - 2.00,2.49 - 2.00,No,Continue

@@ -42,17 +42,28 @@ require 'includes/autoloader.php';
 
 // csv file filtering
 $existingRecord = [];
+$parentIncome = [
+    'below 9,520.00' => 1,
+    '9,520.00 - 19,040.00' => 2,
+    '19,041.00 - 38,080.00' => 3,
+    '38,081.00 - 60,640.00' => 4,
+    'above 60,640.00' => 5
+];
+
 $fileName = "upload/" . 'Students-Profile-Responses - Form Responses 1.csv';
 if (file_exists($fileName)) {
     if (($handle = fopen($fileName, "r")) !== FALSE) { 
         while (($data = fgetcsv($handle)) !== FALSE) {
             $existingRecord[] = $data;
-            unset($existingRecord[0]);
         }
         fclose($handle);
     }
 }
-echo sizeof($existingRecord);
+for ($i=1; $i < sizeof($existingRecord) ; $i++) {
+    echo ($existingRecord[$i][0] . ' === ' . $existingRecord[$i][5]. ' === ' . $parentIncome[$existingRecord[$i][5]]);
+    echo '<br>';
+}
+
 
 
 
