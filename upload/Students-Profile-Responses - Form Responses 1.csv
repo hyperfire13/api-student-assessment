@@ -1,4 +1,4 @@
-Student Number,Section,Age,Age,City Address,Parent's monthly income,Last School Attended(High School),Track,General Weighted Average(GWA) - Grade 11 and 12,General Weighted Average(GWA) - College 1st year 1st Semester,General Weighted Average(GWA) - College 1st year 2nd Semester,"Are you affiliated in any School Organization in the university? (example Computer Society, PASIGYAW, LUNDAYAN, Himig Chorale)",CONTINUE/STOP
+Student Number,Section,Age,Gender,City Address,Parent's monthly income,Last School Attended(High School),Track,General Weighted Average(GWA) - Grade 11 and 12,General Weighted Average(GWA) - College 1st year 1st Semester,General Weighted Average(GWA) - College 1st year 2nd Semester,"Are you affiliated in any School Organization in the university? (example Computer Society, PASIGYAW, LUNDAYAN, Himig Chorale)",CONTINUE/STOP
 20-00336,BSIT-2A,18,Female,Pasig,"below 9,520.00",Buting High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,Yes,Continue
 20-00694,BSIT-2A,19,Male,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,1.99  - 1.50,1.99  - 1.50,No,Continue
 20-00356,BSIT-2A,19,Male,Pasig,"9,520.00 - 19,040.00",AMA,TVL,90 - 95,1.99  - 1.50,1.99  - 1.50,No,Continue
@@ -47,7 +47,7 @@ Student Number,Section,Age,Age,City Address,Parent's monthly income,Last School 
 20-00377,,18,F,Taguig,"below 9,520.00",others,TVL,90 - 95,below 3.00,below 3.00,No,Stop
 20-00387,,18,M,Pasig,"below 9,520.00",Pasig Catholic College,TVL,85 - 89,below 3.00,below 3.00,No,Stop
 20-00392,,18,M,Pasig,"below 9,520.00",Alicia National High School,TVL,85 - 89,below 3.00,below 3.00,No,Stop
-20-00852,,18,F,Pasig,"below 9,520.00",others,TVL,86 - 89,below 3.00,below 3.00,No,Stop
+20-00852,,18,F,Pasig,"below 9,520.00",others,TVL,85 - 89,below 3.00,below 3.00,No,Stop
 20-00882,,18,M,Cainta,"below 9,520.00",Cainta,TVL,90 - 95,1.99 - 1.50,below 3.00,No,Stop
 20-00351,BSIT-2B,19,Female,Pasig,"9,520.00 - 19,040.00",Rizal High School,TVL,81 - 84,1.49 - 1.00,1.49 - 1.00,No,Continue
 20-00874,BSIT-2B,20,Female,Pasig,"below 9,520.00",Rizal High School,TVL,90 - 95,1.49 - 1.00,1.49 - 1.00,No,Continue
@@ -156,7 +156,7 @@ Student Number,Section,Age,Age,City Address,Parent's monthly income,Last School 
 19-00516,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
 19-00450,,18,M,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,2.49 - 2.00,1.99 - 1.50,No,Stop
 19-00426,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,85 - 89,2.49 - 2.00,2.49 - 2.00,No,Stop
-19-01260,,18,,Pasig,"below 9,520.00",Rizal High School,4th year,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
+19-01260,,18,F,Pasig,"below 9,520.00",Rizal High School,4th year,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
 19-01240,,18,F,Pasig,"below 9,520.00",Rizal High School,TVL,81 - 84,2.50 - 3.00,2.49 - 2.00,No,Stop
 19-00572,,18,F,Pasig,"below 9,520.00",Nagpayong High School,TVL,85 - 89,2.50 - 3.00,2.49 - 2.00,No,Stop
 19-01150,,18,M,Antipolo,"below 9,520.00",CASAP,TVL,81 - 84,below 3.00,2.49 - 2.00,No,Stop
@@ -348,7 +348,7 @@ Student Number,Section,Age,Age,City Address,Parent's monthly income,Last School 
 18-00940,,18,F,Pasig,"below 9,520.00",Kapitolyo High School,TVL,81 - 84,below 3.00,below 3.00,No,Stop
 18-01029,,18,M,Pasig,"below 9,520.00",Rizal High School,TVL,75 - 80,2.49 - 2.00,below 3.00,No,Stop
 18-00999,,18,M,Pasig,"below 9,520.00",Buting High School,TVl-HE,75 - 80,below 3.00,below 3.00,No,Stop
-18-00428,,18,M,Pasig,"below 9,520.00",Buting High School,TVl-HE,76 - 80,below 3.00,below 3.00,No,Stop
+18-00428,,18,M,Pasig,"below 9,520.00",Buting High School,TVl-HE,75 - 80,below 3.00,below 3.00,No,Stop
 18-00953,,18,F,Pasig,"below 9,520.00",Asian Institute of Computer Studies,TVL,90 - 95,below 3.00,below 3.00,No,Stop
 18-00393,,18,F,Pasig,"below 9,520.00",Buting High School,TVL,85 - 89,below 3.00,below 3.00,No,Stop
 18-00879,,18,M,Pasig,"below 9,520.00",Arellano University,TVL,85 - 89,below 3.00,below 3.00,No,Stop
