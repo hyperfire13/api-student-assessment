@@ -115,12 +115,14 @@ $schools = [
     'others' => 23
 ];
 $cityAddress = [
-    'Pasig' => 0,
-    'others' => 1
+    'Pasig' => 1,
+    'others' => 2,
+    'Taguig' => 3,
+    'Cainta' => 4
 ];
 
 
-$fileName = "upload/" . 'Students-Profile-Responses - Form Responses 1.csv';
+$fileName = "upload/" . 'Students-Profile-for-First-Year-Testing-Set - Students Profile for First Year.csv';
 if (file_exists($fileName)) {
     if (($handle = fopen($fileName, "r")) !== FALSE) { 
         while (($data = fgetcsv($handle)) !== FALSE) {
@@ -134,6 +136,8 @@ for ($i=1; $i < sizeof($existingRecord) ; $i++) {
     $existingRecord[$i][2] = intval($existingRecord[$i][2]);
     // convert gender into corresponding value
     $existingRecord[$i][3] = $gender[$existingRecord[$i][3]];
+    // convert address into corresponding value
+    $existingRecord[$i][4] = isset( $cityAddress[$existingRecord[$i][4]]) ? $cityAddress[$existingRecord[$i][4]] : $cityAddress['others'];
     // convert salary into corresponding value
     $existingRecord[$i][5] = $parentIncome[$existingRecord[$i][5]];
     // convert school into corresponding value
@@ -145,14 +149,17 @@ for ($i=1; $i < sizeof($existingRecord) ; $i++) {
     $existingRecord[$i][9] = $gwaCollege[$existingRecord[$i][9]];
     $existingRecord[$i][10] = $gwaCollege[$existingRecord[$i][10]];
     $existingRecord[$i][11] = $yesOrNo[$existingRecord[$i][11]];
-    $existingRecord[$i][12] = $continueOrStop[$existingRecord[$i][12]];
-
 
     // echo ' ======= ';
     // echo ($existingRecord[$i][0] . ' === ' . $existingRecord[$i][6]. ' === ' . $schools[$existingRecord[$i][6]]);
     // echo '<br>';
 }
 echo json_encode($existingRecord);
+$output = fopen("upload/final-testingset.csv", "w");
+foreach ($existingRecord as $line) {
+fputcsv($output, $line);
+}
+fclose($output);
 
 /****************************************************/
 // create the csv file ready for the training of machine learning
