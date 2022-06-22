@@ -90,39 +90,16 @@ $continueOrStop = [
 ];
 
 $schools = [
-    'Buting High School' => 1,
-    'Rizal High School' => 2,
-    'AMA' => 3,
-    'San Joaquin - Kalawaan High School' => 4,
-    'STI' => 5,
-    'Arellano University' => 6,
-    'Ezra Technical Training Foundation' => 7,
-    'Pasig Catholic College' => 8,
-    'Alicia National High School' => 9,
-    'Santolan High School' => 10,
-    'Sta. Lucia High School' => 11,
-    'Sagad High School' => 12,
-    'Pasig Science High School' => 13,
-    'Nagpayong High School' => 14,
-    'CASAP' => 15,
-    'PCC' => 16,
-    'St. Chamuel' => 17,
-    'Mary the Queen College' => 18,
-    'Holy Child High School' => 19,
-    'Kapitolyo High School' => 20,
-    'Asian Institute of Computer Studies' => 21,
-    'Eusebio High School' => 22,
-    'others' => 23
+    'Public' => 1,
+    'Private' => 2,
 ];
 $cityAddress = [
-    'Pasig' => 1,
-    'others' => 2,
-    'Taguig' => 3,
-    'Cainta' => 4
+    'PR' => 1,
+    'NPR' => 2
 ];
 
 
-$fileName = "upload/" . 'april 13 2022 - Students-Profile-for-First-Year (4).csv';
+$fileName = "upload/" . 'historical-data-june222022 - Form Responses 1.csv';
 if (file_exists($fileName)) {
     if (($handle = fopen($fileName, "r")) !== FALSE) { 
         while (($data = fgetcsv($handle)) !== FALSE) {
@@ -148,14 +125,18 @@ for ($i=1; $i < sizeof($existingRecord) ; $i++) {
     $existingRecord[$i][8] = $gwaHighSchool[$existingRecord[$i][8]];
     $existingRecord[$i][9] = $gwaCollege[$existingRecord[$i][9]];
     $existingRecord[$i][10] = $gwaCollege[$existingRecord[$i][10]];
-    $existingRecord[$i][11] = $yesOrNo[$existingRecord[$i][11]];
+    $existingRecord[$i][11] = $gwaCollege[$existingRecord[$i][11]];
+    $existingRecord[$i][12] = $gwaCollege[$existingRecord[$i][12]];
+    $existingRecord[$i][13] = $gwaCollege[$existingRecord[$i][13]];
+    $existingRecord[$i][14] = $gwaCollege[$existingRecord[$i][14]];
+    $existingRecord[$i][15] = $yesOrNo[$existingRecord[$i][15]];
 
     // echo ' ======= ';
     // echo ($existingRecord[$i][0] . ' === ' . $existingRecord[$i][6]. ' === ' . $schools[$existingRecord[$i][6]]);
     // echo '<br>';
 }
 echo json_encode($existingRecord);
-$output = fopen("upload/final-testingset.csv", "w");
+$output = fopen("upload/converted-historical-data.csv", "w");
 foreach ($existingRecord as $line) {
 fputcsv($output, $line);
 }
