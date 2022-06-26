@@ -99,7 +99,7 @@ $cityAddress = [
 ];
 
 
-$fileName = "upload/" . 'historical-data-june222022 - Form Responses 1.csv';
+$fileName = "upload/" . 'testing-set-june2022.csv';
 if (file_exists($fileName)) {
     if (($handle = fopen($fileName, "r")) !== FALSE) { 
         while (($data = fgetcsv($handle)) !== FALSE) {
@@ -114,7 +114,7 @@ for ($i=1; $i < sizeof($existingRecord) ; $i++) {
     // convert gender into corresponding value
     $existingRecord[$i][3] = $gender[$existingRecord[$i][3]];
     // convert address into corresponding value
-    $existingRecord[$i][4] = isset( $cityAddress[$existingRecord[$i][4]]) ? $cityAddress[$existingRecord[$i][4]] : $cityAddress['others'];
+    $existingRecord[$i][4] = isset( $cityAddress[$existingRecord[$i][4]]) ? $cityAddress[$existingRecord[$i][4]] : $cityAddress['NPR'];
     // convert salary into corresponding value
     $existingRecord[$i][5] = $parentIncome[$existingRecord[$i][5]];
     // convert school into corresponding value
@@ -136,7 +136,7 @@ for ($i=1; $i < sizeof($existingRecord) ; $i++) {
     // echo '<br>';
 }
 echo json_encode($existingRecord);
-$output = fopen("upload/converted-historical-data.csv", "w");
+$output = fopen("upload/converted-testing-data.csv", "w");
 foreach ($existingRecord as $line) {
 fputcsv($output, $line);
 }
