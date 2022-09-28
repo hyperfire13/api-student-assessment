@@ -15,7 +15,7 @@ require 'includes/autoloader.php';
 // $selectedModule = $helper->cleanNumber($_POST['selectedModule']);
 // $selectedSection = $helper->cleanNumber($_POST['selectedSection']);
 
-// $command_exec = escapeshellcmd('training.py');
+// $command_exec = escapeshellcmd('python python-codes/training.py');
 // $str_output = shell_exec($command_exec);
 // echo var_dump($str_output) ;
 
@@ -25,34 +25,34 @@ require 'includes/autoloader.php';
  * 
 ******end of machine learning section*/
 
-// $fileExtension =  pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
-// $filePath = "upload/" . 'dindin.' . $fileExtension;
+$fileExtension =  pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
+$filePath = "upload/" . 'sshheesshh.' . $fileExtension;
 
-// if (move_uploaded_file($_FILES["file"]["tmp_name"], $filePath)) {
-//     $assessmentDetails = [
-//       'selectedSubject' => $selectedSubject,
-//       'creatorId' => 99,
-//       'selectedModule' => $selectedModule,
-//       'selectedSection' => $selectedSection,
-//       'filePath' => $filePath,
-//     ];
-//     $result = $assessmentResult->insertAssessmentResultDetails($assessmentDetails);
-//     echo $result;
-// }
+if (move_uploaded_file($_FILES["file"]["tmp_name"], $filePath)) {
+    $assessmentDetails = [
+      'selectedSubject' => 11,
+      'creatorId' => 99,
+      'selectedModule' => 22,
+      'selectedSection' => 33,
+      'filePath' => $filePath,
+    ];
+    $result = $assessmentResult->insertAssessmentResultDetails($assessmentDetails);
+    echo $result;
+}
 
 // csv file filtering
-$existingRecord = [];
-$fileName = "upload/" . 'Students-Profile-Responses - Form Responses 1.csv';
-if (file_exists($fileName)) {
-    if (($handle = fopen($fileName, "r")) !== FALSE) { 
-        while (($data = fgetcsv($handle)) !== FALSE) {
-            $existingRecord[] = $data;
-            unset($existingRecord[0]);
-        }
-        fclose($handle);
-    }
-}
-echo sizeof($existingRecord);
+// $existingRecord = [];
+// $fileName = "upload/" . 'Students-Profile-Responses - Form Responses 1.csv';
+// if (file_exists($fileName)) {
+//     if (($handle = fopen($fileName, "r")) !== FALSE) { 
+//         while (($data = fgetcsv($handle)) !== FALSE) {
+//             $existingRecord[] = $data;
+//             unset($existingRecord[0]);
+//         }
+//         fclose($handle);
+//     }
+// }
+// echo sizeof($existingRecord);
 
 
 
