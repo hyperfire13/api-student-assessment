@@ -1,4 +1,5 @@
 <?php
+    session_start();
     header('Access-Control-Allow-Origin: *');
     header('Access-Control-Allow-Methods: POST');
     header('Access-Control-Allow-Headers: Authorization');
@@ -34,6 +35,7 @@
     if ($total_count === 0) {
         // QUERY TO INSERT PROVINCE
         $date_added = date("Y-m-d H:i:s");
+        $password = password_hash($password, PASSWORD_DEFAULT);
         $command = 'INSERT INTO users(first_name, last_name, username, password, user_level, created_at) VALUES (?, ?, ?, ?, ?, ?)';
         $statement = $connection->prepare($command);
         $statement->bind_param('ssssis',

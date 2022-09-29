@@ -1,4 +1,5 @@
 <?php
+session_start();
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Authorization');
@@ -37,23 +38,37 @@ if ($total_count > 0) {
     if (password_verify($password, $user_password)) {
         $date_added = date("Y-m-d H:i:s");
         $token = password_hash($user_password, PASSWORD_DEFAULT);
-        $encrypted_id = $helper->ssl_encrypt($result[0]["id"], SSL_KEY, HASH_PASSWORD_KEY);
-        $_SESSION['id'] = $encrypted_id;
         $_SESSION['token'] = $token;
         $_SESSION['level'] = $user_level;
-        $helper->response_now([
+        $command = 'UPDATE users SET token = ? WHERE username = ? AND id = ?';
+        $statement = $connection->prepare($command);
+        $statement->bind_param('ssi',
+            $token,
+            $username,
+            $id
+        );
+        $statement->execute();
+        // PROMPT FOR FAILED QUERY
+        if ($statement->affected_rows !== 1) {
+            $helper->response_now($statement, $connection,[
+                'status' => "failed",
+            ]);
+        }
+        $helper->response_now($statement, $connection, [
             'status' => "success",
             'level' => $user_level,
-            'id' => $encrypted_id,
-            'token' => $token
+            'token' => $token,
+            'firstName' => $first_name,
+            'lastName' => $last_name,
+            'userId' => $id,
         ]);
     } else {
-        $helper->response_now([
-            'status' => "failed",
+        $helper->response_now($statement, $connection, [
+            'status' => "unauthorized",
         ]);
     }
 } else {
-    $helper->response_now([
+    $helper->response_now($statement, $connection, [
         'status' => "failed",
     ]);
 }

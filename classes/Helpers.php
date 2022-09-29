@@ -47,24 +47,9 @@ Class Helpers {
     }
 
     /** check if user is authorized */
-    function checkToken() {
-        if (!isset($_SESSION['id'], $_SESSION['token'], $_SESSION['auth'])) {
-            $this->halt('unauthorized');
-        }
-        if ($_SERVER['REQUEST_METHOD'] === 'POST' && strval($_POST['token'])  !== strval($_SESSION['token'])) {
-            $this->halt('unauthorized');
-        }
-        if ($_SERVER['REQUEST_METHOD'] === 'POST' && intval($_POST['myId']) !== intval($_SESSION['id'])) {
-            $this->halt('unauthorized');
-        }
-        if ($_SERVER['REQUEST_METHOD'] === 'GET' && strval($_GET['token']) !== strval($_SESSION['token'])) {
-            $this->halt('unauthorized');
-        }
-        if ($_SERVER['REQUEST_METHOD'] === 'GET' && intval($_GET['myId']) !== intval($_SESSION['id'])) {
-            $this->halt('unauthorized');
-        }
-        if (boolval($_SESSION['auth']) != true) {
-            $this->halt('unauthorized');
+    function checkToken($token) {
+        if ($_SESSION['token'] !== $token) {
+            return false;
         }
     }
 
