@@ -17,6 +17,8 @@
     $sections = [];
 
     $userid = $helper->cleanNumber($_POST['userId']);
+    $sectionId = $helper->cleanNumber($_POST['sectionId']);
+    $sectionName = $helper->cleanString($_POST['sectionName']);
     $token = $_POST['token'];
 
     if ($tokenChecker->checkToken($userid, $token) === false) {
@@ -25,23 +27,20 @@
         ]);
     }
 
-    $command = 'SELECT id, section_name FROM sections WHERE deleted_at IS NULL';
+    $command = 'UPDATE sections set section_name = ? WHERE id = ?';
     $statement = $connection->prepare($command);
-    $statement->bind_result(
-        $id,
-        $section_name,
+    $statement->bind_param('si',
+        $sectionName,
+        $sectionId,
     );
-
     $statement->execute();
-
-    while ($statement->fetch()) {
-        $sections[] = [
-            'id' => $id,
-            'name' => $section_name
-        ];
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
     }
     $helper->response_now($statement, $connection, [
         'status' => "success",
-        'sections' => $sections,
     ]);
 ?>

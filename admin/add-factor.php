@@ -17,6 +17,8 @@
     $sections = [];
 
     $userid = $helper->cleanNumber($_POST['userId']);
+    $factorName = $helper->cleanString($_POST['factorName']);
+    $intervention = $_POST['intervention'];
     $token = $_POST['token'];
 
     if ($tokenChecker->checkToken($userid, $token) === false) {
@@ -25,23 +27,20 @@
         ]);
     }
 
-    $command = 'SELECT id, section_name FROM sections WHERE deleted_at IS NULL';
+    $command = 'INSERT INTO factors_intervention(factor, intervention) VALUES (?, ?)';
     $statement = $connection->prepare($command);
-    $statement->bind_result(
-        $id,
-        $section_name,
+    $statement->bind_param('ss',
+        $factorName,
+        $intervention,
     );
-
     $statement->execute();
-
-    while ($statement->fetch()) {
-        $sections[] = [
-            'id' => $id,
-            'name' => $section_name
-        ];
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
     }
     $helper->response_now($statement, $connection, [
         'status' => "success",
-        'sections' => $sections,
     ]);
 ?>
