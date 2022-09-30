@@ -152,12 +152,24 @@
     fclose($output);
 
     // start python here
-    $command_exec = 'python ../python-codes/student-assessment-final.py ' . $convertedName;
-    $str_output = shell_exec($command_exec);
-    echo $str_output;
-    // if (isset($str_output)) {
-    //     $helper->response_now($statement, $connection, [
-    //         'status' => "success",
-    //     ]);
-    // }
+    $command_exec = 'python ../python-codes/student-assessment-final.py ' . $convertedName . ' ' . $newFileName;
+    $finalFile = shell_exec($command_exec);
+
+    $command = 'UPDATE results set result_file = ? WHERE id = ?';
+    $statement = $connection->prepare($command);
+    $statement->bind_param('si',
+        $finalFile,
+        $lastInsertedId,
+    );
+    $statement->execute();
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
+    }
+
+    $helper->response_now($statement, $connection, [
+        'status' => "success",
+    ]);
 ?>

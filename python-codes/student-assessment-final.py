@@ -17,8 +17,8 @@ import os
 
 this_dir = os.path.dirname(__file__)
 model = joblib.load(this_dir + '/new-college-progression.joblib')
-
 score_data = pd.read_csv('../upload/converted/' + sys.argv[1])
+original_data = pd.read_csv('../upload/' + sys.argv[2])
 for i in range(len(score_data)):
   predictions = model.predict([
     [score_data.values[i][2],
@@ -40,4 +40,7 @@ for i in range(len(score_data)):
   # score_data.values[i][12] = predictions[0]
   # score_data.set_value(i, 'CONTINUE/STOP', predictions[0])
   score_data.loc[i, 'CONTINUE/STOP'] = predictions[0]
+  original_data.loc[i, 'CONTINUE/STOP'] = predictions[0]
 score_data.to_csv('../upload/result/resulted-' + sys.argv[1], encoding='utf-8', index=False)
+original_data.to_csv('../upload/final/final-' + sys.argv[2], encoding='utf-8', index=False)
+print('final-' + sys.argv[2])
