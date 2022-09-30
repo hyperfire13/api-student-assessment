@@ -13,5 +13,31 @@ import numpy as np
 import matplotlib.pyplot as plt
 import joblib as joblib
 import sys
+import os
 
-print(sys.argv[1])
+this_dir = os.path.dirname(__file__)
+model = joblib.load(this_dir + '/new-college-progression.joblib')
+
+score_data = pd.read_csv('../upload/converted/' + sys.argv[1])
+for i in range(len(score_data)):
+  predictions = model.predict([
+    [score_data.values[i][2],
+    score_data.values[i][3],
+    score_data.values[i][4],
+    score_data.values[i][5],
+    score_data.values[i][6],
+    score_data.values[i][7],
+    score_data.values[i][8],
+    score_data.values[i][9],
+    score_data.values[i][10],
+    score_data.values[i][11],
+    score_data.values[i][12],
+    score_data.values[i][13],
+    score_data.values[i][14],
+    score_data.values[i][15],
+    ]
+  ])
+  # score_data.values[i][12] = predictions[0]
+  # score_data.set_value(i, 'CONTINUE/STOP', predictions[0])
+  score_data.loc[i, 'CONTINUE/STOP'] = predictions[0]
+score_data.to_csv('../upload/result/resulted-' + sys.argv[1], encoding='utf-8', index=False)
