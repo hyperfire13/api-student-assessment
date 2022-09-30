@@ -12,3 +12,6 @@ import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 import joblib as joblib
+import sys
+
+print(sys.argv[1])
