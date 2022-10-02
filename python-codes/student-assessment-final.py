@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 import joblib as joblib
 import sys
 import os
+import json
 
 this_dir = os.path.dirname(__file__)
 model = joblib.load(this_dir + '/new-college-progression.joblib')
@@ -41,6 +42,28 @@ for i in range(len(score_data)):
   # score_data.set_value(i, 'CONTINUE/STOP', predictions[0])
   score_data.loc[i, 'CONTINUE/STOP'] = predictions[0]
   original_data.loc[i, 'CONTINUE/STOP'] = predictions[0]
+
+
 score_data.to_csv('../upload/result/resulted-' + sys.argv[1], encoding='utf-8', index=False)
 original_data.to_csv('../upload/final/final-' + sys.argv[2], encoding='utf-8', index=False)
-print('final-' + sys.argv[2])
+
+imp = model.feature_importances_
+#Create arrays from feature importance and feature names
+X = score_data.drop(columns=['CONTINUE/STOP', 'Section', 'Student Number '])
+feature_importance = np.array(imp)
+feature_names = np.array(X.columns)
+
+#Create a DataFrame using a Dictionary
+data={'feature_names':feature_names,'feature_importance':feature_importance}
+fi_df = pd.DataFrame(data)
+fi_df.sort_values(by=['feature_importance'], ascending=False,inplace=True)
+# original_data.loc[i, 'FACTOR1'] = fi_df.iloc[0][0]
+# original_data.loc[i, 'FACTOR2'] = fi_df.iloc[1][0]
+# original_data.loc[i, 'FACTOR2'] = fi_df.iloc[3][0]
+json.dumps([
+  'final-' + sys.argv[2], 
+  {'factors': (fi_df.iloc[0][0], fi_df.iloc[1][0], fi_df.iloc[3][0])}])
+
+print(json.dumps([
+  'final-' + sys.argv[2], 
+  {'factors': (fi_df.iloc[0][0], fi_df.iloc[1][0], fi_df.iloc[3][0])}]))

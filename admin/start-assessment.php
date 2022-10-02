@@ -154,11 +154,35 @@
     // start python here
     $command_exec = 'python ../python-codes/student-assessment-final.py ' . $convertedName . ' ' . $newFileName;
     $finalFile = shell_exec($command_exec);
+    $finalFile = json_decode($finalFile, FALSE);
+    $factors = $finalFile[1]->factors;
+    $interventions = [];
+    for ($i=0; $i < sizeof($factors);$i++) {
+        $command = 'SELECT id FROM factors_intervention WHERE factor LIKE ?';
+        $statement = $connection->prepare($command);
+        $statement->bind_param('s',
+            $factors[$i]
+        );
+        $statement->bind_result(
+            $id,
+        );
+        $statement->execute();
 
-    $command = 'UPDATE results set result_file = ? WHERE id = ?';
+        while ($statement->fetch()) {
+            if (!empty($id)) {
+                $interventions[] = [
+                    'id' => $id,
+                ];
+            }
+        }
+        $statement->close(); 
+    }
+    $interventions = json_encode($interventions);
+    $command = 'UPDATE results set result_file = ?, factors = ? WHERE id = ?';
     $statement = $connection->prepare($command);
-    $statement->bind_param('si',
-        $finalFile,
+    $statement->bind_param('ssi',
+        $finalFile[0],
+        $interventions,
         $lastInsertedId,
     );
     $statement->execute();

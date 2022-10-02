@@ -25,7 +25,7 @@
         ]);
     }
 
-    $command = 'SELECT id, year_name FROM school_year WHERE deleted_at IS NULL';
+    $command = 'SELECT id, year_name FROM school_year WHERE deleted_at IS NULL AND school_year.id NOT IN (SELECT year_id FROM results)';
     $statement = $connection->prepare($command);
     $statement->bind_result(
         $id,
