@@ -36,20 +36,7 @@
         ]);
     }
     $newFileName = $newFileName . $fileExtension;
-    $command = 'INSERT INTO results(year_id, base_file) VALUES (?, ?)';
-    $statement = $connection->prepare($command);
-    $statement->bind_param('is',
-        $selectedYear,
-        $newFileName,
-    );
-    $statement->execute();
-    $lastInsertedId = $statement->insert_id;
-    // PROMPT FOR FAILED QUERY
-    if ($statement->affected_rows !== 1) {
-        $helper->response_now($statement, $connection,[
-            'status' => "failed",
-        ]);
-    }
+    
 
     // csv file filtering
     $existingRecord = [];
@@ -117,31 +104,56 @@
             fclose($handle);
         }
     }
-    for ($i=1; $i < sizeof($existingRecord) ; $i++) {
-        // convert age into corresponding value
-        $existingRecord[$i][2] = intval($existingRecord[$i][2]);
-        // convert gender into corresponding value
-        $existingRecord[$i][3] = $gender[$existingRecord[$i][3]];
-        // convert address into corresponding value
-        $existingRecord[$i][4] = isset( $cityAddress[$existingRecord[$i][4]]) ? $cityAddress[$existingRecord[$i][4]] : $cityAddress['NPR'];
-        // convert salary into corresponding value
-        $existingRecord[$i][5] = $parentIncome[$existingRecord[$i][5]];
-        // convert school into corresponding value
-        $existingRecord[$i][6] = isset($schools[$existingRecord[$i][6]]) ? $schools[$existingRecord[$i][6]] : $schools['others'];
-        // convert track into corresponding value
-        $existingRecord[$i][7] = isset($track[$existingRecord[$i][7]]) ? $track[$existingRecord[$i][7]] : $track['others'];
+    
+        //code...
+    
+        for ($i=1; $i < sizeof($existingRecord) ; $i++) {
+            try {
+                // convert age into corresponding value
+                $existingRecord[$i][2] = intval($existingRecord[$i][2]);
+                // convert gender into corresponding value
+                $existingRecord[$i][3] = $gender[$existingRecord[$i][3]];
+                // convert address into corresponding value
+                $existingRecord[$i][4] = isset( $cityAddress[$existingRecord[$i][4]]) ? $cityAddress[$existingRecord[$i][4]] : $cityAddress['NPR'];
+                // convert salary into corresponding value
+                $existingRecord[$i][5] = $parentIncome[$existingRecord[$i][5]];
+                // convert school into corresponding value
+                $existingRecord[$i][6] = isset($schools[$existingRecord[$i][6]]) ? $schools[$existingRecord[$i][6]] : $schools['others'];
+                // convert track into corresponding value
+                $existingRecord[$i][7] = isset($track[$existingRecord[$i][7]]) ? $track[$existingRecord[$i][7]] : $track['others'];
 
-        $existingRecord[$i][8] = $gwaHighSchool[$existingRecord[$i][8]];
-        $existingRecord[$i][9] = $gwaCollege[$existingRecord[$i][9]];
-        $existingRecord[$i][10] = $gwaCollege[$existingRecord[$i][10]];
-        $existingRecord[$i][11] = $gwaCollege[$existingRecord[$i][11]];
-        $existingRecord[$i][12] = $gwaCollege[$existingRecord[$i][12]];
-        $existingRecord[$i][13] = $gwaCollege[$existingRecord[$i][13]];
-        $existingRecord[$i][14] = $gwaCollege[$existingRecord[$i][14]];
-        $existingRecord[$i][15] = $yesOrNo[$existingRecord[$i][15]];
-        // echo ' ======= ';
-        // echo ($existingRecord[$i][0] . ' === ' . $existingRecord[$i][6]. ' === ' . $schools[$existingRecord[$i][6]]);
-        // echo '<br>';
+                $existingRecord[$i][8] = $gwaHighSchool[$existingRecord[$i][8]];
+                $existingRecord[$i][9] = $gwaCollege[$existingRecord[$i][9]];
+                $existingRecord[$i][10] = $gwaCollege[$existingRecord[$i][10]];
+                $existingRecord[$i][11] = $gwaCollege[$existingRecord[$i][11]];
+                $existingRecord[$i][12] = $gwaCollege[$existingRecord[$i][12]];
+                $existingRecord[$i][13] = $gwaCollege[$existingRecord[$i][13]];
+                $existingRecord[$i][14] = $gwaCollege[$existingRecord[$i][14]];
+                $existingRecord[$i][15] = $yesOrNo[$existingRecord[$i][15]];
+                // echo ' ======= ';
+                // echo ($existingRecord[$i][0] . ' === ' . $existingRecord[$i][6]. ' === ' . $schools[$existingRecord[$i][6]]);
+                // echo '<br>';
+            } catch (Exception $e) {
+                $helper->response_now(null, null,[
+                    'status' => "failed",
+                ]);
+            }
+        }
+    
+
+    $command = 'INSERT INTO results(year_id, base_file) VALUES (?, ?)';
+    $statement = $connection->prepare($command);
+    $statement->bind_param('is',
+        $selectedYear,
+        $newFileName,
+    );
+    $statement->execute();
+    $lastInsertedId = $statement->insert_id;
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
     }
     // echo json_encode($existingRecord);
     $convertedName = 'converted-' .  $newFileName;
