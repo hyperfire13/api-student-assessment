@@ -27,7 +27,13 @@
             'status' => "failed",
         ]);
     }
-
+    $intervention = json_decode($intervention);
+    for ($i=0; $i < sizeof($intervention); $i++) {
+        if (empty($intervention[$i]->name)) {
+            unset($intervention[$i]);
+        }
+    }
+    $intervention = json_encode($intervention);
     $command = 'UPDATE factors_intervention set factor = ?, intervention =? WHERE id = ?';
     $statement = $connection->prepare($command);
     $statement->bind_param('ssi',
