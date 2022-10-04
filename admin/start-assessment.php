@@ -167,6 +167,17 @@
     $command_exec = 'python ../python-codes/student-assessment-final.py ' . $convertedName . ' ' . $newFileName;
     $finalFile = shell_exec($command_exec);
     $finalFile = json_decode($finalFile, FALSE);
+    if (is_null($finalFile)) {
+        $command = 'DELETE FROM results WHERE id = ?';
+        $statement = $connection->prepare($command);
+        $statement->bind_param('i',
+            $lastInsertedId,
+        );
+        $statement->execute();
+        $helper->response_now(null, null,[
+            'status' => "bad_data",
+        ]);
+    }
     $factors = $finalFile[1]->factors;
     $interventions = [];
     for ($i=0; $i < sizeof($factors);$i++) {
