@@ -10,7 +10,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/includes/autoloader.php';
 use Classes\Database as Database;
 use Classes\Helpers as Helper;
 
-// $db = new Database();
+$db = new Database();
 // $helper = new Helper();
 // $connection = $db->connect();
 
