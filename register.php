@@ -5,7 +5,7 @@
     header('Access-Control-Allow-Headers: Authorization');
     header('Content-Type: application/json;charset=utf-8');
 
-    require 'includes/autoloader.php';
+    require dirname(__DIR__) . 'includes/autoloader.php';
     use Classes\Database as Database;
     use Classes\Helpers as Helper;
     $headers = getallheaders();
