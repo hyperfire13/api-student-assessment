@@ -1,7 +1,7 @@
 <?php
-// echo dirname(__DIR__) . '\config.php';
-echo realpath(__DIR__) .'/config.php';
-// require dirname(__DIR__) . '\config.php';
+// original
+//require dirname(__DIR__) . '/config.php';
+require '../config.php';
 // spl_autoload_register('classAutoLoader');
 
 // function classAutoLoader($className)
