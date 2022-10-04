@@ -16,5 +16,5 @@ header('Content-Type: application/json;charset=utf-8');
 
 // $username = $helper->cleanString($_POST['username']);
 // $password = $helper->cleanString($_POST['password']);
-echo realpath(__DIR__);
+echo $_SERVER['DOCUMENT_ROOT'] . " /hahaha";
 ?>
