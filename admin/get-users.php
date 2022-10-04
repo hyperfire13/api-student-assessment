@@ -25,11 +25,12 @@
         ]);
     }
 
-    $command = 'SELECT id, year_name FROM school_year  WHERE deleted_at IS NULL ORDER BY year_name ASC';
+    $command = 'SELECT id, CONCAT(first_name, " " , last_name), username FROM users WHERE deleted_at IS NULL';
     $statement = $connection->prepare($command);
     $statement->bind_result(
         $id,
-        $section_name,
+        $fullname,
+        $username,
     );
 
     $statement->execute();
@@ -37,7 +38,8 @@
     while ($statement->fetch()) {
         $sections[] = [
             'id' => $id,
-            'name' => $section_name
+            'name' => $fullname,
+            'username' => $username
         ];
     }
     $helper->response_now($statement, $connection, [

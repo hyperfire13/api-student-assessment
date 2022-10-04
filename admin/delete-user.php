@@ -17,6 +17,7 @@
     $sections = [];
 
     $userid = $helper->cleanNumber($_POST['userId']);
+    $sectionId = $helper->cleanNumber($_POST['sectionId']);
     $token = $_POST['token'];
 
     if ($tokenChecker->checkToken($userid, $token) === false) {
@@ -24,24 +25,21 @@
             'status' => "failed",
         ]);
     }
-
-    $command = 'SELECT id, year_name FROM school_year  WHERE deleted_at IS NULL ORDER BY year_name ASC';
+    $date_added = date("Y-m-d H:i:s");
+    $command = 'UPDATE users set deleted_at = ? WHERE id = ?';
     $statement = $connection->prepare($command);
-    $statement->bind_result(
-        $id,
-        $section_name,
+    $statement->bind_param('si',
+        $date_added,
+        $sectionId,
     );
-
     $statement->execute();
-
-    while ($statement->fetch()) {
-        $sections[] = [
-            'id' => $id,
-            'name' => $section_name
-        ];
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
     }
     $helper->response_now($statement, $connection, [
         'status' => "success",
-        'sections' => $sections,
     ]);
 ?>
