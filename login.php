@@ -4,8 +4,8 @@ header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Authorization');
 header('Content-Type: application/json;charset=utf-8');
-
-require __DIR__ . '\includes\autoloader.php';
+echo __DIR__;
+// require __DIR__ . '\includes\autoloader.php';
 // use Classes\Database as Database;
 // use Classes\Helpers as Helper;
 // $headers = getallheaders();
