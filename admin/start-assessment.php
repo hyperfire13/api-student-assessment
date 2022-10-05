@@ -29,7 +29,7 @@
     $date_added = date("YmdHis");
     $fileExtension =  pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
     $newFileName = $code. '-' . $schoolYear . '-' . $date_added. '-' . 'basefile.';
-    $filePath = '../upload/' . $newFileName . $fileExtension;
+    $filePath = $_SERVER['DOCUMENT_ROOT'] . '/upload/' . $newFileName . $fileExtension;
     if (!move_uploaded_file($_FILES["file"]["tmp_name"], $filePath)) {
         $helper->response_now(null, null, [
             'status' => "failed_moving_file",
@@ -95,7 +95,7 @@
         'PR' => 1,
         'NPR' => 2
     ];
-    $fileName = "../upload/" . $newFileName;
+    $fileName = $_SERVER['DOCUMENT_ROOT'] . "/upload/" . $newFileName;
     if (file_exists($fileName)) {
         if (($handle = fopen($fileName, "r")) !== FALSE) { 
             while (($data = fgetcsv($handle)) !== FALSE) {
@@ -157,7 +157,7 @@
     }
     // echo json_encode($existingRecord);
     $convertedName = 'converted-' .  $newFileName;
-    $output = fopen("../upload/converted/converted-" . $newFileName, "w");
+    $output = fopen($_SERVER['DOCUMENT_ROOT'] . "/upload/converted/converted-" . $newFileName, "w");
     foreach ($existingRecord as $line) {
         fputcsv($output, $line);
     }

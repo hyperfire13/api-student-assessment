@@ -39,7 +39,7 @@
     $statement->execute();
     $statement->fetch();
     $resultFile = empty($resultFile) ? "empty" : $resultFile;
-    $fileName = "../upload/final/" . $resultFile;
+    $fileName = $_SERVER['DOCUMENT_ROOT'] . "/upload/final/" . $resultFile;
 
     if (file_exists($fileName)) {
         if (($handle = fopen($fileName, "r")) !== FALSE) { 
