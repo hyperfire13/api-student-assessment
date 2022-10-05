@@ -38,6 +38,13 @@
     $statement->execute();
     $statement->fetch();
     $statement->close(); 
+    if (empty($factors)) {
+        $helper->response_now($statement, $connection, [
+            'status' => "success",
+            'id' => $id,
+            'results' => $existingFactors,
+        ]);
+    }
     $factors = json_decode($factors);
     for ($i=0; $i < sizeof($factors); $i++) {
         $idToFetch = $factors[$i]->id;
