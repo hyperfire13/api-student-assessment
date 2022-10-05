@@ -7,11 +7,11 @@ header('Content-Type: application/json;charset=utf-8');
 // require 'includes/autoloader.php';
 // require realpath(__DIR__) . '/includes/autoloader.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/includes/autoloader.php';
-// use Database as Database;
-// use Helpers as Helper;
+use Classes\Database as Database;
+use Classes\Helpers as Helper;
 
 $db = new Database();
-$helper = new Helpers();
+$helper = new Helper();
 $connection = $db->connect();
 
 $username = $helper->cleanString($_POST['username']);

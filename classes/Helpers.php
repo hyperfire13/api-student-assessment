@@ -1,5 +1,5 @@
 <?php
-
+namespace Classes;
 Class Helpers {
     /** failed constant for queries */
     public const failed = "failed";
