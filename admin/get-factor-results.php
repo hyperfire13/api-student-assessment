@@ -39,7 +39,7 @@
     $statement->fetch();
     $statement->close(); 
     if (empty($factors)) {
-        $helper->response_now($statement, $connection, [
+        $helper->response_now(null, $connection, [
             'status' => "success",
             'id' => $id,
             'results' => $existingFactors,
