@@ -8,7 +8,7 @@ function classAutoLoader($className)
 {
     $paths = array('classes/');
     $extension = ".php";
-    $fullPath = $_SERVER['DOCUMENT_ROOT'] . '/' . $className . $extension;
+    $fullPath = $_SERVER['DOCUMENT_ROOT'] . '/Classes'. '/' . $className . $extension;
 
     if (!file_exists($fullPath)) {
         return false;

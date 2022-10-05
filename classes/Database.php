@@ -1,5 +1,5 @@
 <?php 
-namespace Classes;
+// namespace Classes;
 Class Database
 {
     private $connection;
