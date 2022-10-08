@@ -140,6 +140,28 @@
             }
         }
     
+    $command = 'SELECT id FROM results WHERE year_id = ?';
+    $statement = $connection->prepare($command);
+    $statement->bind_param('i',  $selectedYear);
+    $statement->bind_result(
+        $existingYear,
+    );
+
+    $statement->execute();
+    $statement->store_result();
+    $total_count = $statement->num_rows;
+    $statement->fetch();
+
+    if ($total_count > 0) {
+        $command = 'DELETE FROM results WHERE id = ?';
+        $statement = $connection->prepare($command);
+        $statement->bind_param('i',
+            $existingYear
+        );
+        $statement->execute();
+        $statement->close();
+    }
+    
 
     $command = 'INSERT INTO results(year_id, base_file) VALUES (?, ?)';
     $statement = $connection->prepare($command);

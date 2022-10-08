@@ -25,12 +25,13 @@
         ]);
     }
 
-    $command = 'SELECT id, CONCAT(first_name, " " , last_name), username FROM users WHERE deleted_at IS NULL';
+    $command = 'SELECT id, CONCAT(first_name, " " , last_name), username, user_level FROM users WHERE deleted_at IS NULL';
     $statement = $connection->prepare($command);
     $statement->bind_result(
         $id,
         $fullname,
         $username,
+        $level
     );
 
     $statement->execute();
@@ -39,7 +40,8 @@
         $sections[] = [
             'id' => $id,
             'name' => $fullname,
-            'username' => $username
+            'username' => $username,
+            'level' => $level
         ];
     }
     $helper->response_now($statement, $connection, [

@@ -17,6 +17,7 @@
     $sections = [];
 
     $userid = $helper->cleanNumber($_POST['userId']);
+    $factorId = $helper->cleanNumber($_POST['factorId']);
     $token = $_POST['token'];
 
     if ($tokenChecker->checkToken($userid, $token) === false) {
@@ -24,24 +25,20 @@
             'status' => "failed",
         ]);
     }
-
-    $command = 'SELECT id, year_name FROM school_year WHERE deleted_at IS NULL ORDER BY year_name';
+    $date_added = date("Y-m-d H:i:s");
+    $command = 'UPDATE factors_intervention set deleted_at = null WHERE id = ?';
     $statement = $connection->prepare($command);
-    $statement->bind_result(
-        $id,
-        $section_name,
+    $statement->bind_param('i',
+        $factorId,
     );
-
     $statement->execute();
-
-    while ($statement->fetch()) {
-        $sections[] = [
-            'id' => $id,
-            'name' => $section_name
-        ];
+    // PROMPT FOR FAILED QUERY
+    if ($statement->affected_rows !== 1) {
+        $helper->response_now($statement, $connection,[
+            'status' => "failed",
+        ]);
     }
     $helper->response_now($statement, $connection, [
         'status' => "success",
-        'sections' => $sections,
     ]);
 ?>

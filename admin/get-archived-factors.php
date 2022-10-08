@@ -14,7 +14,7 @@
     $helper = new Helper();
     $connection = $db->connect();
     $tokenChecker = new Token($connection);
-    $sections = [];
+    $factors = [];
 
     $userid = $helper->cleanNumber($_POST['userId']);
     $token = $_POST['token'];
@@ -25,23 +25,25 @@
         ]);
     }
 
-    $command = 'SELECT id, year_name FROM school_year WHERE deleted_at IS NULL ORDER BY year_name';
+    $command = 'SELECT id, factor, intervention FROM factors_intervention WHERE deleted_at IS NOT NULL';
     $statement = $connection->prepare($command);
     $statement->bind_result(
         $id,
-        $section_name,
+        $factor,
+        $intervention
     );
 
     $statement->execute();
 
     while ($statement->fetch()) {
-        $sections[] = [
+        $factors[] = [
             'id' => $id,
-            'name' => $section_name
+            'name' => $factor,
+            'interventions' => $intervention
         ];
     }
     $helper->response_now($statement, $connection, [
         'status' => "success",
-        'sections' => $sections,
+        'factors' => $factors,
     ]);
 ?>
