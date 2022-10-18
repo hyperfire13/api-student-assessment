@@ -67,8 +67,14 @@
     for ($i=1; $i < sizeof($existingRecord) ; $i++) {
         $existingRecord[$i][7] = isset($track[$existingRecord[$i][7]]) ? $existingRecord[$i][7]: 'Others';
         if (!empty($selectedSection)) {
-            if (strtoupper($existingRecord[$i][1]) !== strtoupper($selectedSection) ) {
-                $sectionsToRemove[] = $i;
+            if ($selectedSection === 'Stop' || $selectedSection === 'Continue') {
+                if ($existingRecord[$i][16] !== $selectedSection ) {
+                    $sectionsToRemove[] = $i;
+                }
+            } else {
+                if (strtoupper($existingRecord[$i][1]) !== strtoupper($selectedSection) ) {
+                    $sectionsToRemove[] = $i;
+                }
             }
         }
     }
