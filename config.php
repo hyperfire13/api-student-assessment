@@ -11,7 +11,7 @@ define("DATABASE", "tgzzvim7s0dvj08p");
 // define("USERNAME", "kenneth");
 // define("PASSWORD", "123456");
 // define("DATABASE", "thesisdb");
-define("SSL_KEY", "AES-128-ECB");
+// define("SSL_KEY", "AES-128-ECB");
 /*** PASSWORD HASH KEY ***/
 define('HASH_PASSWORD_KEY', "machinelearningpython");
 ?>
